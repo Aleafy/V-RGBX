@@ -1,6 +1,5 @@
 # <img src="assets/logo.png" style="vertical-align: -15px;" :height="40px" width="40px"> V-RGBX: Video Editing with Accurate Controls over Intrinsic Properties 
 
-<!-- **[](https://arxiv.org/abs/2512.16829)** -->
 
 
 
@@ -8,7 +7,7 @@
 
 
 <p align="center">
-<a href="https://arxiv.org/abs/xxx"><img src="https://img.shields.io/badge/arXiv-Paper-<color>"></a>
+<a href="https://arxiv.org/abs/2512.11799"><img src="https://img.shields.io/badge/arXiv-Paper-<color>"></a>
 <a href="https://aleafy.github.io/vrgbx/"><img src="https://img.shields.io/badge/Project-Website-red"></a>
 <a href="https://www.youtube.com/watch?v=j5yGqvB-BP0"><img src="https://img.shields.io/static/v1?label=Demo&message=Video&color=orange"></a>
 <img src="https://visitor-badge.laobi.icu/badge?page_id=https://github.com/Aleafy/V-RGBX" />
@@ -17,7 +16,7 @@
 
 [Ye Fang](https://kszpxxzmc.github.io), [Tong Wu✉️](https://wutong16.github.io), [Valentin Deschaintre](https://valentin.deschaintre.fr/), [Duygu Ceylan](https://www.duygu-ceylan.com/), [Iliyan Georgiev](https://iliyan.com/), [Chun-Hao Paul Huang](https://paulchhuang.wixsite.com/chhuang), [Yiwei Hu](https://yiweihu.netlify.app/), [Xuelin Chen](https://xuelin-chen.github.io/), [Tuanfeng Yang Wang✉️](https://tuanfeng.github.io/)
 
-[**Paper**]() | [**Project page**](https://aleafy.github.io/vrgbx/) | [**Video**](https://www.youtube.com/watch?v=j5yGqvB-BP0)
+[**Paper**](https://arxiv.org/pdf/2512.11799) | [**Project page**](https://aleafy.github.io/vrgbx/) | [**Video**](https://www.youtube.com/watch?v=j5yGqvB-BP0)
 
 
 
@@ -64,10 +63,13 @@ This work is built on many amazing research works and open-source projects, than
 If you find our work helpful for your research, please consider giving a star ⭐ and citation 📝
 
 ```bibtex
-@article{fang2025vrgbx,
-      author    = {Fang, Ye and Wu, Tong and Deschaintre, Valentin and Ceylan, Duygu and Georgiev, Iliyan and Huang, Chun-Hao Paul and Hu, Yiwei and Chen, Xuelin and Wang, Tuanfeng Yang},
-      title     = {V-RGBX: Video Editing with Accurate Controls over Intrinsic Properties},
-      journal   = {arXiv preprint arXiv: TBD},
-      year      = {2025},
+@misc{fang2025vrgbxvideoeditingaccurate,
+      title={V-RGBX: Video Editing with Accurate Controls over Intrinsic Properties}, 
+      author={Ye Fang and Tong Wu and Valentin Deschaintre and Duygu Ceylan and Iliyan Georgiev and Chun-Hao Paul Huang and Yiwei Hu and Xuelin Chen and Tuanfeng Yang Wang},
+      year={2025},
+      eprint={2512.11799},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2512.11799}, 
 }
 ```
