@@ -63,14 +63,6 @@
 </details> 
 
 
-<!-- This repository is the official implementation of V-RGBX. It is a **training-free framework** that enables 
-zero-shot illumination control of any given video sequences or foreground sequences.
-
-<details><summary>Click for the full abstract of V-RGBX</summary>
-
-> Recent advancements</details> -->
-
-
 ![Teaser Image](./assets/teaser.png)
 
 
@@ -84,8 +76,8 @@ zero-shot illumination control of any given video sequences or foreground sequen
 
 <!--- 🚀 **[Jan 1x, 2026]** We release the **[V-RGBX model weights](#🔑-model-weights)** and **[inference code](#💡-inference)**, including **inverse rendering**, **forward rendering**, and **intrinsic-aware video editing**.  [[Model Weights](#🔑-model-weights)] · [[Inference](#💡-inference)]-->
 
-- 🚀 **[Jan 15, 2026]** We release the **V-RGBX model weights** and **inference code**, including **inverse rendering**, **forward rendering**, and **intrinsic-aware video editing**.  [[Model Weights](#🔑-model-weights)] · [[Inference](#💡-inference)]
-- 🚀 **[Dec 15, 2025]** The [paper](https://arxiv.org/abs/2512.11799) and [project page](https://aleafy.github.io/vrgbx/) are released!
+- 🚀🚀 **[Jan 15, 2026]** We release the **V-RGBX model weights** and **inference code**, including **inverse rendering**, **forward rendering**, and **intrinsic-aware video editing**.  [[Model Weights](#🔑-model-weights)] · [[Inference](#💡-inference)]
+- 🚀🚀 **[Dec 15, 2025]** The [paper](https://arxiv.org/abs/2512.11799) and [project page](https://aleafy.github.io/vrgbx/) are released!
 
 <!-- 📚 Gallery -->
 
@@ -93,9 +85,10 @@ zero-shot illumination control of any given video sequences or foreground sequen
 
 ## 🌟 Highlights
 
-- 🔥 The **first end-to-end intrinsic-aware video editing framework**, enabling physically grounded control over **albedo, normal, material, and irradiance**.
+- 🔥 The **first end-to-end intrinsic-aware video editing framework**, enabling physically grounded control over albedo, normal, material, and irradiance.
 - 🔥 A **unified RGB → X → RGB pipeline** that supports **keyframe-based edit propagation** across time via inverse and forward rendering.
-- 🔥 **Interleaved intrinsic conditioning** with **temporal-aware embeddings** ensures stable and temporally consistent video generation under complex multi-attribute edits.
+- 🔥 **Interleaved intrinsic conditioning** with **temporal-aware type embeddings** enables precise and disentangled edits across different intrinsic properties with temporal coherence.
+<!-- - 🔥 **Interleaved intrinsic conditioning** with **temporal-aware embeddings** ensures stable and temporally consistent video generation under complex multi-attribute edits. -->
 
 ## 📦 Installations
 #### 1. Clone the repository
@@ -371,3 +364,8 @@ If you find our work helpful for your research, please consider giving a star �
 }
 ```
 
+## License
+![Code License](https://img.shields.io/badge/Code%20License-Apache_2.0-green.svg)
+![Model License](https://img.shields.io/badge/Model%20License-CC%20BY--NC_4.0-red.svg) 
+
+**Usage and License Notices**:The source code of V-RGBX is released under the Apache License 2.0. The checkpoints and example data are released under the Creative Commons Attribution–NonCommercial 4.0 International (CC BY-NC 4.0) license and are intended for research and educational use only.
